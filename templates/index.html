@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Processor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg border-b border-gray-200 animate-slide-in">
+        <div class="container mx-auto px-6 py-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-light text-gray-800 tracking-wider uppercase mb-2">
+                Resume Processor
+            </h1>
+            <p class="text-gray-600 text-lg font-light">
+                AI-Powered Resume Analysis & Management
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex items-center justify-center p-4 md:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl w-full">
+            <!-- Upload Resume Card -->
+            <div class="card-upload group bg-white rounded-xl shadow-lg p-8 text-center cursor-pointer transition-all duration-300 hover:-translate-y-3 hover:shadow-xl hover:scale-105 relative overflow-hidden border border-gray-100 animate-bounce-in">
+                <!-- Gradient top border -->
+                <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+                
+                <!-- Icon -->
+                <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-3xl text-white shadow-lg group-hover:scale-110 group-hover:shadow-blue-400/30 transition-all duration-300">
+                    📄
+                </div>
+                
+                <!-- Content -->
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4 group-hover:text-blue-600 transition-colors duration-300">
+                    Upload Resume
+                </h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Upload your resume to extract and analyze key information using advanced AI technology. Get insights into skills, experience, and improvement suggestions.
+                </p>
+                
+                <!-- Feature badges -->
+                <div class="flex flex-wrap justify-center gap-2 mt-4">
+                    <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">AI Analysis</span>
+                    <span class="px-2 py-1 bg-purple-100 text-purple-800 rounded-full text-xs">Skill Extraction</span>
+                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">Improvement Tips</span>
+                </div>
+                
+                <div class="absolute inset-0 rounded-xl opacity-0 group-active:opacity-100 bg-blue-400/10 transition-opacity duration-150"></div>
+            </div>
+
+            <!-- History Card -->
+            <div class="card-history group bg-white rounded-xl shadow-lg p-8 text-center cursor-pointer transition-all duration-300 hover:-translate-y-3 hover:shadow-xl hover:scale-105 relative overflow-hidden border border-gray-100 animate-bounce-in" style="animation-delay: 0.3s;">
+                <!-- Gradient top border -->
+                <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-500 to-teal-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+                
+                <!-- Icon -->
+                <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-teal-500 rounded-full flex items-center justify-center text-3xl text-white shadow-lg group-hover:scale-110 group-hover:shadow-green-400/30 transition-all duration-300">
+                    📊
+                </div>
+                
+                <!-- Content -->
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4 group-hover:text-green-600 transition-colors duration-300">
+                    View History
+                </h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Access your previously processed resumes and their extracted information. Track changes, compare versions, and monitor your progress.
+                </p>
+                
+                <!-- Feature badges -->
+                <div class="flex flex-wrap justify-center gap-2 mt-4">
+                    <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">Track Progress</span>
+                    <span class="px-2 py-1 bg-teal-100 text-teal-800 rounded-full text-xs">Compare Versions</span>
+                    <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Export Data</span>
+                </div>
+                
+                <!-- Ripple effect overlay -->
+                <div class="absolute inset-0 rounded-xl opacity-0 group-active:opacity-100 bg-green-400/10 transition-opacity duration-150"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section class="py-12 bg-white/50">
+        <div class="container mx-auto px-6">
+            <h3 class="text-2xl font-semibold text-center text-gray-800 mb-8">Why Choose Our Resume Processor?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="text-center p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-3xl mb-4">🤖</div>
+                    <h4 class="font-semibold text-gray-800 mb-2">AI-Powered Analysis</h4>
+                    <p class="text-gray-600 text-sm">Advanced AI analyzes your resume and provides intelligent suggestions for improvement.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-3xl mb-4">🎯</div>
+                    <h4 class="font-semibold text-gray-800 mb-2">Skill Recommendations</h4>
+                    <p class="text-gray-600 text-sm">Get personalized skill recommendations to enhance your career prospects.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-3xl mb-4">📈</div>
+                    <h4 class="font-semibold text-gray-800 mb-2">Progress Tracking</h4>
+                    <p class="text-gray-600 text-sm">Monitor your resume improvements over time with detailed analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        document.querySelector('.card-upload').addEventListener('click', function() {
+            this.classList.add('scale-95');
+            setTimeout(() => {
+                this.classList.remove('scale-95');
+                window.location.href = '/upload';
+            }, 150);
+        });
+
+        document.querySelector('.card-history').addEventListener('click', function() {
+            this.classList.add('scale-95');
+            setTimeout(() => {
+                this.classList.remove('scale-95');
+                window.location.href = '/history';
+            }, 150);
+        });
+
+
+    </script>
+</body>
+</html>
