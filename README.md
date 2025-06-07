@@ -35,8 +35,8 @@ A FastAPI-based web application that analyzes resumes using AI to extract key in
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd "fastapi project"
+   git clone https://github.com/vardhan-ganugula/fastapi-project
+   cd "fastapi-project"
    ```
 
 2. **Create virtual environment**
