@@ -131,8 +131,29 @@ Open your web browser and navigate to:
 To verify everything is working correctly:
 
 1. **Database Connection**: Check the console for any database connection errors
+
 2. **Upload Test**: Try uploading a sample PDF resume
+   - Navigate to the upload page
+   - Select a PDF file and enter a job title
+   - Verify the analysis results are displayed
+
 3. **History Page**: Check if the history page loads without errors
+
+### Expected Results
+
+If everything is set up correctly, you should see:
+
+#### Home Page
+![Home Page](screenshots/Screenshot%20(86).png)
+
+#### Upload Interface
+![Upload Interface](screenshots/Screenshot%20(87).png)
+
+#### Analysis Results
+![Analysis Results](screenshots/Screenshot%20(88).png)
+
+#### Resume History
+![Resume History](screenshots/Screenshot%20(89).png)
 
 ## Troubleshooting
 

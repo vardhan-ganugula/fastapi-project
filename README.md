@@ -13,6 +13,7 @@ A FastAPI-based web application that analyzes resumes using AI to extract key in
 
 ## 📋 Table of Contents
 
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
@@ -22,6 +23,30 @@ A FastAPI-based web application that analyzes resumes using AI to extract key in
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
+
+## 📸 Screenshots
+
+### Home Page
+The main landing page with navigation options and clean interface.
+
+![Home Page](screenshots/Screenshot%20(86).png)
+
+### Resume Upload Interface
+Upload form where users can select PDF resumes and specify the job role for analysis.
+
+![Upload Interface](screenshots/Screenshot%20(87).png)
+
+### Analysis Results
+Detailed analysis results showing extracted information, skills, ratings, and improvement suggestions.
+
+![Analysis Results](screenshots/Screenshot%20(88).png)
+
+### Resume History
+View all previously analyzed resumes with their details and ratings.
+
+![Resume History](screenshots/Screenshot%20(89).png)
+
+> 📝 **Note**: For detailed descriptions of each interface and feature, see [SCREENSHOTS.md](SCREENSHOTS.md)
 
 ## 🛠️ Installation
 
@@ -209,7 +234,13 @@ The application provides RESTful API endpoints for integration with other system
 
 ```
 fastapi project/
-├── app.py                 # Main FastAPI application
+├── README.md             # Main project documentation
+├── SETUP_GUIDE.md        # Detailed setup instructions
+├── API_DOCUMENTATION.md  # API reference guide
+├── DEPLOYMENT_GUIDE.md   # Production deployment guide
+├── ARCHITECTURE.md       # Technical architecture docs
+├── SCREENSHOTS.md        # Interface screenshots and descriptions
+├── app.py                # Main FastAPI application
 ├── database.py           # Database configuration
 ├── model.py              # SQLAlchemy models
 ├── langchain_analysis.py # AI analysis engine
@@ -217,6 +248,11 @@ fastapi project/
 ├── local_types.py        # Pydantic data models
 ├── requirements.txt      # Python dependencies
 ├── .env                  # Environment variables (create this)
+├── screenshots/          # Application interface screenshots
+│   ├── Screenshot (86).png  # Home page
+│   ├── Screenshot (87).png  # Upload interface
+│   ├── Screenshot (88).png  # Analysis results
+│   └── Screenshot (89).png  # Resume history
 ├── static/              # Static assets
 │   ├── css/            # Stylesheets
 │   ├── js/             # JavaScript files
